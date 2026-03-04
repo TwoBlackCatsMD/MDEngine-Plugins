@@ -1,5 +1,5 @@
 {
-  "type": "enginePlugin",
+  "type": "eventsPlugin",
   "name": "Custom C Function",
   "author": "TwoBlackCats",
   "url": "https://github.com/TwoBlackCatsMD/MDEngine-Plugins",
