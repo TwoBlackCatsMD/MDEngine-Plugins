@@ -1,0 +1,16 @@
+{
+  "name": "md-engine-plugins",
+  "version": "1.0.0",
+  "description": "MD Engine Official Plugin Repository",
+  "main": "build.js",
+  "type": "module",
+  "scripts": {
+    "build": "node build.js"
+  },
+  "author": "Two Black Cats",
+  "license": "MIT",
+  "packageManager": "yarn@4.4.1+sha256.920b4530755296dc2ce8b4351f057d4a26429524fcb2789d277560d94837c27e",
+  "dependencies": {
+    "glob": "^11.0.0"
+  }
+}

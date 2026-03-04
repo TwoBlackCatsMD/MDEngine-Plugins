@@ -1,0 +1,10 @@
+{
+  "type": "enginePlugin",
+  "name": "Custom C Function",
+  "author": "TwoBlackCats",
+  "url": "https://github.com/TwoBlackCatsMD/MDEngine-Plugins",
+  "description": "Sample plugin that binds a C function to an event.",
+  "license": "MIT",
+  "version": "1.0.0",
+  "mdeVersion": ">=0.0.0"
+}
