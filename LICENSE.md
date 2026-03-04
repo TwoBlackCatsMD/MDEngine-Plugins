@@ -1,6 +1,7 @@
 MIT License
 
 Copyright (c) 2026 Two Black Cats
+
 Based on gb-studio plugins by Chris Maltby Copyright (c) 2024
 
 This license applies to the entire repository except for subfolders that have
