@@ -11,13 +11,15 @@ const fields =
 
 const compile = (input, helpers) => 
 {
-  const { cmnt, al } = helpers;
+  const { cmnt, startLine, endLine, emitStmt, stmtCall } = helpers;
 
   // Dumps a comment
-  cmnt("// Custom Plugin Call");
+  cmnt("Custom Plugin Call");
 
-  // Add a new line to the source code
-  al("myCFunction();")
+  // Emit a call to myCFunction()
+  startLine();
+  emitStmt(stmtCall("myCFunction"));
+  endLine();
 };
   
 module.exports = 
